@@ -8,21 +8,21 @@ token:
   exp:
     minutos: 60
   signing:
-    key: 413F4428472B4B6250655368566D5970337336763979244226452948404PL4Y3
+    key: ${TOKEN_KEY}
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://develop:DTkQQHYFZ80Mwx8z@cluster0.ripiu2q.mongodb.net/player?retryWrites=true&w=majority
-      database: player
+      uri: ${MONGO_URI}
+      database: ${MONGO_DATABASE}
 springdoc:
   swagger-ui:
     path: /
 cloudinary:
   config:
     api:
-      name: dosghtja7
-      key: 988542158489461
-      secret: 381FeT5vdPkqlUx95UgMo6rgRDg
+      name: ${CLOUDINARY_NAME}
+      key: ${CLOUDINARY_KEY}
+      secret: ${CLOUDINARY_SECRET}
 brevio:
   openapi:
     dev-url: http://localhost:5000/
