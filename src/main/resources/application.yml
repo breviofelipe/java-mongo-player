@@ -1,0 +1,29 @@
+server:
+  port: ${PORT:5000}
+# Default to "jdbc:postgresql://example.com:5432/database" so that the application at least starts up when
+# JDBC_DATABASE_URL is not set. We use this here to reduce friction when newcomers work with this getting started
+# application. Production applications should not have a default like this, especially not ones that have credentials
+# in them!
+token:
+  exp:
+    minutos: 60
+  signing:
+    key: 413F4428472B4B6250655368566D5970337336763979244226452948404PL4Y3
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://develop:DTkQQHYFZ80Mwx8z@cluster0.ripiu2q.mongodb.net/player?retryWrites=true&w=majority
+      database: player
+springdoc:
+  swagger-ui:
+    path: /
+cloudinary:
+  config:
+    api:
+      name: dosghtja7
+      key: 988542158489461
+      secret: 381FeT5vdPkqlUx95UgMo6rgRDg
+brevio:
+  openapi:
+    dev-url: http://localhost:5000/
+    prod-url: https://####.herokuapp.com/
