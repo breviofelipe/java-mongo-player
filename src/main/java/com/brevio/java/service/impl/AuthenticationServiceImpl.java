@@ -7,7 +7,7 @@ import com.brevio.java.model.JwtAuthenticationResponse;
 import com.brevio.java.model.SigninRequest;
 import com.brevio.java.repository.wallet.WalletRepository;
 import com.brevio.java.service.AuthenticationService;
-import com.brevio.java.controller.auth.dto.RegisterRequest;
+import com.brevio.java.model.dto.RegisterRequest;
 import com.brevio.java.entity.user.User;
 import com.brevio.java.repository.user.UserRepository;
 import com.brevio.java.service.JwtService;

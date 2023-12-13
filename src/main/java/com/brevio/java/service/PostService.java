@@ -1,6 +1,7 @@
 package com.brevio.java.service;
 
-import com.brevio.java.controller.post.feed.dto.CreatePostRequest;
+
+import com.brevio.java.controller.dto.CreatePostRequest;
 import org.springframework.http.ResponseEntity;
 
 public interface PostService {

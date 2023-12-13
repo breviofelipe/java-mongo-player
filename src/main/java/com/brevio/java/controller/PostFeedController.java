@@ -1,8 +1,8 @@
-package com.brevio.java.controller.post.feed;
+package com.brevio.java.controller;
 
 
-import com.brevio.java.controller.post.feed.dto.CreatePostRequest;
-import com.brevio.java.controller.post.feed.dto.LikeRequest;
+import com.brevio.java.controller.dto.CreatePostRequest;
+import com.brevio.java.controller.dto.LikeRequest;
 import com.brevio.java.service.PostService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;

@@ -1,9 +1,7 @@
-package com.brevio.java.controller.auth.dto;
+package com.brevio.java.model.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 @Data
 @NoArgsConstructor

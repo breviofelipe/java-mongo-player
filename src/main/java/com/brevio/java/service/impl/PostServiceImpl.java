@@ -1,6 +1,7 @@
 package com.brevio.java.service.impl;
 
-import com.brevio.java.controller.post.feed.dto.CreatePostRequest;
+
+import com.brevio.java.controller.dto.CreatePostRequest;
 import com.brevio.java.entity.post.Post;
 import com.brevio.java.entity.user.User;
 import com.brevio.java.repository.post.feed.PostFeedRepository;

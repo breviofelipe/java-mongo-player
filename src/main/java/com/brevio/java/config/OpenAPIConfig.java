@@ -42,7 +42,7 @@ public class OpenAPIConfig {
         License mitLicense = new License().name("MIT License").url("https://choosealicense.com/licenses/mit/");
 
         Info info = new Info()
-                .title("Heroku backend Mongo")
+                .title("Posts backend Mongo")
                 .version("1.0")
                 .contact(contact)
                 .description("Heroku backend").termsOfService("https://www.brevio.com/terms")
